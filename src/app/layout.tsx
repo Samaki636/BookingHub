@@ -38,6 +38,7 @@ export default function RootLayout({
         <footer className="bg-gray-800 text-white p-4 text-center mt-auto">
           <p>&copy; 2025 Booking Hub. All rights reserved.</p>
         </footer>
+        <SpeedInsights />
       </body>
     </html>
   );

@@ -8,17 +8,6 @@ const initialRooms = [
   { id: 4, name: 'Seminar Room', capacity: 40 },
 ];
 
-const initialAvailability = [
-  { roomId: 1, time: '09:00 - 10:00', available: true },
-  { roomId: 1, time: '10:00 - 11:00', available: false },
-  { roomId: 2, time: '09:00 - 10:00', available: true },
-  { roomId: 2, time: '10:00 - 11:00', available: true },
-  { roomId: 3, time: '09:00 - 10:00', available: false },
-  { roomId: 3, time: '10:00 - 11:00', available: true },
-  { roomId: 4, time: '09:00 - 10:00', available: true },
-  { roomId: 4, time: '10:00 - 11:00', available: true },
-];
-
 const App = () => {
   return (
     <div className="App bg-gray-900 text-white">
