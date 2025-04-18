@@ -1,2 +1,5 @@
 node_modules
 README.Docker.md
+.next
+.vscode
+.idea
