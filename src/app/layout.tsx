@@ -1,6 +1,7 @@
 import '@/app/ui/global.css';
 import { roboto } from '@/app/ui/fonts';
 import NavLinks from '@/app/ui/dashboard/nav-links';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function RootLayout({
   children,
