@@ -7,6 +7,7 @@ WORKDIR /usr/src/app
 
 # Install dependencies (with cache and bind mounts for speed)
 COPY package.json package-lock.json ./
+RUN apt-get update -y && apt-get install -y openssl
 RUN --mount=type=cache,target=/root/.npm npm ci
 
 # Copy the rest of the application source code
